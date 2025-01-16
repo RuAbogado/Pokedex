@@ -1,8 +1,9 @@
 /* From Uiverse.io by ElSombrero2 */ 
 /* Contenedor principal que contiene todas las tarjetas */
+
 .card-container {
     display: flex;         
-    justify-content: flex-start;  
+    justify-content: center;  
     flex-wrap: wrap;       
     gap: 20px;              
     padding: 10px;         
@@ -13,13 +14,6 @@
     width: 190px;
     height: 254px;
   }
-
-  .card-container {
-    display: flex;
-    justify-content: flex-end; /* Alinea las tarjetas hacia la derecha */
-    gap: 20px; /* Espacio entre las tarjetas */
-    flex-wrap: wrap; /* Si las tarjetas exceden el ancho, se moverán a la siguiente línea */
-}
   
   .content {
     width: 100%;

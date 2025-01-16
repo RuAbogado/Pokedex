@@ -11,6 +11,8 @@
 .search-container {
     max-width: 600px;
     margin: 0 auto;
+    justify-content: center; /* Centra los elementos hijos (input y botón) */
+    align-items: center; /* Centra verticalmente */
 }
 
 .search-container input {
@@ -21,5 +23,6 @@
     border-radius: 8px;
     margin-right: 10px;
 }
+
 
 
