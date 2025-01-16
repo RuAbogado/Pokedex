@@ -13,7 +13,7 @@
     font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
-    color: #3d7215;
+    color: #e68312;
 }
 
 table th, td {
@@ -23,13 +23,13 @@ table th, td {
 }
 
 table th {
-    background-color: #ffcb05;
-    color: #3d7215;
+    background-color: #dc7e0c;
+    color: #000000;
     font-weight: bold;
 }
 
 table td {
-    background-color: #f9f9f9;
+    background-color: #494949;
 }
 
 table tbody tr:hover {

@@ -1,13 +1,16 @@
 /* features.css */
-
+.features-section{
+    background-color: #0e0304;
+}
 /* Contenedor del carrusel */
 .carousel-container {
     position: relative;
-    width: 80%;
+    width: 70%;
     max-width: 900px;
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
+    color: #ff740a;
 }
 
 .carousel {
@@ -40,7 +43,7 @@ button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #aa1602;
+    background-color: #e17006;
     color: white;
     border: none;
     font-size: 1.5em;
@@ -51,7 +54,7 @@ button {
 }
 
 button:hover {
-    background-color: #c31e34;
+    background-color: #0e0304;
 }
 
 .prev {
