@@ -1,0 +1,63 @@
+/* features.css */
+
+/* Contenedor del carrusel */
+.carousel-container {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%; /* Para que cada elemento ocupe todo el carrusel */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    max-width: 200px;
+    margin-bottom: 15px;
+}
+
+.carousel-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.carousel-item p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #aa1602;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c31e34;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

@@ -1,0 +1,44 @@
+/* responsive.css */
+
+/* Para pantallas más pequeñas (tablets y móviles) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .search-container input {
+        width: 60%;
+    }
+
+    .search-container button {
+        width: 30%;
+    }
+
+    .features-section h2 {
+        font-size: 1.8em;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+}
+
+/* Para pantallas de móviles */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    .search-container input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search-container button {
+        width: 100%;
+    }
+}

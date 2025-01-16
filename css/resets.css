@@ -1,0 +1,22 @@
+/* reset.css */
+
+/* Elimina márgenes, rellenos y bordes predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Resetea el estilo de listas, imágenes y enlaces */
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
